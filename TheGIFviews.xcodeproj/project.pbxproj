@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F91B011D79F727003A030E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B001D79F727003A030E /* main.m */; };
+		F9F91B041D79F727003A030E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B031D79F727003A030E /* AppDelegate.m */; };
+		F9F91B071D79F727003A030E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B061D79F727003A030E /* ViewController.m */; };
+		F9F91B0A1D79F727003A030E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B081D79F727003A030E /* Main.storyboard */; };
+		F9F91B0C1D79F727003A030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B0B1D79F727003A030E /* Assets.xcassets */; };
+		F9F91B0F1D79F727003A030E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B0D1D79F727003A030E /* LaunchScreen.storyboard */; };
+		F9F91B271D79F74A003A030E /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B161D79F74A003A030E /* FFRing.png */; };
+		F9F91B281D79F74A003A030E /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B171D79F74A003A030E /* FFTspark.png */; };
+		F9F91B291D79F74A003A030E /* ic_menu_bluepig.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B181D79F74A003A030E /* ic_menu_bluepig.png */; };
+		F9F91B2A1D79F74A003A030E /* ic_menu_bluepig2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B191D79F74A003A030E /* ic_menu_bluepig2.png */; };
+		F9F91B2B1D79F74A003A030E /* ic_menu_greenpig.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B1A1D79F74A003A030E /* ic_menu_greenpig.png */; };
+		F9F91B2C1D79F74A003A030E /* ic_menu_greenpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B1B1D79F74A003A030E /* ic_menu_greenpig2.png */; };
+		F9F91B2D1D79F74A003A030E /* ic_menu_pinkpig.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B1C1D79F74A003A030E /* ic_menu_pinkpig.png */; };
+		F9F91B2E1D79F74A003A030E /* ic_menu_pinkpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B1D1D79F74A003A030E /* ic_menu_pinkpig2.png */; };
+		F9F91B2F1D79F74A003A030E /* ic_menu_purplepig.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B1E1D79F74A003A030E /* ic_menu_purplepig.png */; };
+		F9F91B301D79F74A003A030E /* ic_menu_purplepig2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B1F1D79F74A003A030E /* ic_menu_purplepig2.png */; };
+		F9F91B311D79F74A003A030E /* ic_menu_yellowpig.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B201D79F74A003A030E /* ic_menu_yellowpig.png */; };
+		F9F91B321D79F74A003A030E /* ic_menu_yellowpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B211D79F74A003A030E /* ic_menu_yellowpig2.png */; };
+		F9F91B331D79F74A003A030E /* leftShoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B221D79F74A003A030E /* leftShoot.png */; };
+		F9F91B341D79F74A003A030E /* rightShoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B231D79F74A003A030E /* rightShoot.png */; };
+		F9F91B351D79F74A003A030E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B241D79F74A003A030E /* star.png */; };
+		F9F91B361D79F74A003A030E /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B251D79F74A003A030E /* love@2x.png */; };
+		F9F91B371D79F74A003A030E /* love@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F91B261D79F74A003A030E /* love@3x.png */; };
+		F9F91B3B1D79F89F003A030E /* UIButton+Bubbling.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B3A1D79F89F003A030E /* UIButton+Bubbling.m */; };
+		F9F91B3E1D7A1EDF003A030E /* DropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B3D1D7A1EDF003A030E /* DropViewController.m */; };
+		F9F91B411D7A4260003A030E /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B401D7A4260003A030E /* LiveViewController.m */; };
+		F9F91B441D7A4364003A030E /* FireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B431D7A4364003A030E /* FireViewController.m */; };
+		F9F91B471D7A447B003A030E /* FlowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B461D7A447B003A030E /* FlowerViewController.m */; };
+		F9F91B4A1D7A468A003A030E /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F91B491D7A468A003A030E /* SnowViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9F91AFC1D79F727003A030E /* TheGIFviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGIFviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F91B001D79F727003A030E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9F91B021D79F727003A030E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9F91B031D79F727003A030E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9F91B051D79F727003A030E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9F91B061D79F727003A030E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9F91B091D79F727003A030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F91B0B1D79F727003A030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F91B0E1D79F727003A030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F91B101D79F727003A030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F91B161D79F74A003A030E /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		F9F91B171D79F74A003A030E /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
+		F9F91B181D79F74A003A030E /* ic_menu_bluepig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bluepig.png; sourceTree = "<group>"; };
+		F9F91B191D79F74A003A030E /* ic_menu_bluepig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bluepig2.png; sourceTree = "<group>"; };
+		F9F91B1A1D79F74A003A030E /* ic_menu_greenpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_greenpig.png; sourceTree = "<group>"; };
+		F9F91B1B1D79F74A003A030E /* ic_menu_greenpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_greenpig2.png; sourceTree = "<group>"; };
+		F9F91B1C1D79F74A003A030E /* ic_menu_pinkpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_pinkpig.png; sourceTree = "<group>"; };
+		F9F91B1D1D79F74A003A030E /* ic_menu_pinkpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_pinkpig2.png; sourceTree = "<group>"; };
+		F9F91B1E1D79F74A003A030E /* ic_menu_purplepig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_purplepig.png; sourceTree = "<group>"; };
+		F9F91B1F1D79F74A003A030E /* ic_menu_purplepig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_purplepig2.png; sourceTree = "<group>"; };
+		F9F91B201D79F74A003A030E /* ic_menu_yellowpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_yellowpig.png; sourceTree = "<group>"; };
+		F9F91B211D79F74A003A030E /* ic_menu_yellowpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_yellowpig2.png; sourceTree = "<group>"; };
+		F9F91B221D79F74A003A030E /* leftShoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftShoot.png; sourceTree = "<group>"; };
+		F9F91B231D79F74A003A030E /* rightShoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightShoot.png; sourceTree = "<group>"; };
+		F9F91B241D79F74A003A030E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		F9F91B251D79F74A003A030E /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
+		F9F91B261D79F74A003A030E /* love@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@3x.png"; sourceTree = "<group>"; };
+		F9F91B391D79F89F003A030E /* UIButton+Bubbling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bubbling.h"; sourceTree = "<group>"; };
+		F9F91B3A1D79F89F003A030E /* UIButton+Bubbling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bubbling.m"; sourceTree = "<group>"; };
+		F9F91B3C1D7A1EDF003A030E /* DropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropViewController.h; sourceTree = "<group>"; };
+		F9F91B3D1D7A1EDF003A030E /* DropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropViewController.m; sourceTree = "<group>"; };
+		F9F91B3F1D7A4260003A030E /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		F9F91B401D7A4260003A030E /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		F9F91B421D7A4364003A030E /* FireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireViewController.h; sourceTree = "<group>"; };
+		F9F91B431D7A4364003A030E /* FireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireViewController.m; sourceTree = "<group>"; };
+		F9F91B451D7A447B003A030E /* FlowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerViewController.h; sourceTree = "<group>"; };
+		F9F91B461D7A447B003A030E /* FlowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerViewController.m; sourceTree = "<group>"; };
+		F9F91B481D7A468A003A030E /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		F9F91B491D7A468A003A030E /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F91AF91D79F727003A030E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F91AF31D79F727003A030E = {
+			isa = PBXGroup;
+			children = (
+				F9F91AFE1D79F727003A030E /* TheGIFviews */,
+				F9F91AFD1D79F727003A030E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F91AFD1D79F727003A030E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F91AFC1D79F727003A030E /* TheGIFviews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F91AFE1D79F727003A030E /* TheGIFviews */ = {
+			isa = PBXGroup;
+			children = (
+				F9F91B021D79F727003A030E /* AppDelegate.h */,
+				F9F91B031D79F727003A030E /* AppDelegate.m */,
+				F9F91B051D79F727003A030E /* ViewController.h */,
+				F9F91B061D79F727003A030E /* ViewController.m */,
+				F9F91B3C1D7A1EDF003A030E /* DropViewController.h */,
+				F9F91B3D1D7A1EDF003A030E /* DropViewController.m */,
+				F9F91B3F1D7A4260003A030E /* LiveViewController.h */,
+				F9F91B401D7A4260003A030E /* LiveViewController.m */,
+				F9F91B421D7A4364003A030E /* FireViewController.h */,
+				F9F91B431D7A4364003A030E /* FireViewController.m */,
+				F9F91B451D7A447B003A030E /* FlowerViewController.h */,
+				F9F91B461D7A447B003A030E /* FlowerViewController.m */,
+				F9F91B481D7A468A003A030E /* SnowViewController.h */,
+				F9F91B491D7A468A003A030E /* SnowViewController.m */,
+				F9F91B391D79F89F003A030E /* UIButton+Bubbling.h */,
+				F9F91B3A1D79F89F003A030E /* UIButton+Bubbling.m */,
+				F9F91B081D79F727003A030E /* Main.storyboard */,
+				F9F91B0B1D79F727003A030E /* Assets.xcassets */,
+				F9F91B0D1D79F727003A030E /* LaunchScreen.storyboard */,
+				F9F91B101D79F727003A030E /* Info.plist */,
+				F9F91AFF1D79F727003A030E /* Supporting Files */,
+			);
+			path = TheGIFviews;
+			sourceTree = "<group>";
+		};
+		F9F91AFF1D79F727003A030E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9F91B381D79F751003A030E /* images */,
+				F9F91B001D79F727003A030E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9F91B381D79F751003A030E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F9F91B161D79F74A003A030E /* FFRing.png */,
+				F9F91B171D79F74A003A030E /* FFTspark.png */,
+				F9F91B181D79F74A003A030E /* ic_menu_bluepig.png */,
+				F9F91B191D79F74A003A030E /* ic_menu_bluepig2.png */,
+				F9F91B1A1D79F74A003A030E /* ic_menu_greenpig.png */,
+				F9F91B1B1D79F74A003A030E /* ic_menu_greenpig2.png */,
+				F9F91B1C1D79F74A003A030E /* ic_menu_pinkpig.png */,
+				F9F91B1D1D79F74A003A030E /* ic_menu_pinkpig2.png */,
+				F9F91B1E1D79F74A003A030E /* ic_menu_purplepig.png */,
+				F9F91B1F1D79F74A003A030E /* ic_menu_purplepig2.png */,
+				F9F91B201D79F74A003A030E /* ic_menu_yellowpig.png */,
+				F9F91B211D79F74A003A030E /* ic_menu_yellowpig2.png */,
+				F9F91B221D79F74A003A030E /* leftShoot.png */,
+				F9F91B231D79F74A003A030E /* rightShoot.png */,
+				F9F91B241D79F74A003A030E /* star.png */,
+				F9F91B251D79F74A003A030E /* love@2x.png */,
+				F9F91B261D79F74A003A030E /* love@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F91AFB1D79F727003A030E /* TheGIFviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F91B131D79F727003A030E /* Build configuration list for PBXNativeTarget "TheGIFviews" */;
+			buildPhases = (
+				F9F91AF81D79F727003A030E /* Sources */,
+				F9F91AF91D79F727003A030E /* Frameworks */,
+				F9F91AFA1D79F727003A030E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheGIFviews;
+			productName = TheGIFviews;
+			productReference = F9F91AFC1D79F727003A030E /* TheGIFviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F91AF41D79F727003A030E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CloudEducation;
+				TargetAttributes = {
+					F9F91AFB1D79F727003A030E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F9F91AF71D79F727003A030E /* Build configuration list for PBXProject "TheGIFviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F91AF31D79F727003A030E;
+			productRefGroup = F9F91AFD1D79F727003A030E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F91AFB1D79F727003A030E /* TheGIFviews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F91AFA1D79F727003A030E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F91B2E1D79F74A003A030E /* ic_menu_pinkpig2.png in Resources */,
+				F9F91B0F1D79F727003A030E /* LaunchScreen.storyboard in Resources */,
+				F9F91B2D1D79F74A003A030E /* ic_menu_pinkpig.png in Resources */,
+				F9F91B2C1D79F74A003A030E /* ic_menu_greenpig2.png in Resources */,
+				F9F91B321D79F74A003A030E /* ic_menu_yellowpig2.png in Resources */,
+				F9F91B271D79F74A003A030E /* FFRing.png in Resources */,
+				F9F91B361D79F74A003A030E /* love@2x.png in Resources */,
+				F9F91B341D79F74A003A030E /* rightShoot.png in Resources */,
+				F9F91B301D79F74A003A030E /* ic_menu_purplepig2.png in Resources */,
+				F9F91B0C1D79F727003A030E /* Assets.xcassets in Resources */,
+				F9F91B331D79F74A003A030E /* leftShoot.png in Resources */,
+				F9F91B291D79F74A003A030E /* ic_menu_bluepig.png in Resources */,
+				F9F91B351D79F74A003A030E /* star.png in Resources */,
+				F9F91B2F1D79F74A003A030E /* ic_menu_purplepig.png in Resources */,
+				F9F91B311D79F74A003A030E /* ic_menu_yellowpig.png in Resources */,
+				F9F91B281D79F74A003A030E /* FFTspark.png in Resources */,
+				F9F91B0A1D79F727003A030E /* Main.storyboard in Resources */,
+				F9F91B2A1D79F74A003A030E /* ic_menu_bluepig2.png in Resources */,
+				F9F91B2B1D79F74A003A030E /* ic_menu_greenpig.png in Resources */,
+				F9F91B371D79F74A003A030E /* love@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F91AF81D79F727003A030E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F91B441D7A4364003A030E /* FireViewController.m in Sources */,
+				F9F91B4A1D7A468A003A030E /* SnowViewController.m in Sources */,
+				F9F91B411D7A4260003A030E /* LiveViewController.m in Sources */,
+				F9F91B3B1D79F89F003A030E /* UIButton+Bubbling.m in Sources */,
+				F9F91B071D79F727003A030E /* ViewController.m in Sources */,
+				F9F91B041D79F727003A030E /* AppDelegate.m in Sources */,
+				F9F91B3E1D7A1EDF003A030E /* DropViewController.m in Sources */,
+				F9F91B011D79F727003A030E /* main.m in Sources */,
+				F9F91B471D7A447B003A030E /* FlowerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9F91B081D79F727003A030E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F91B091D79F727003A030E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F91B0D1D79F727003A030E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F91B0E1D79F727003A030E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F91B111D79F727003A030E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9F91B121D79F727003A030E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F91B141D79F727003A030E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheGIFviews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.TheGIFviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9F91B151D79F727003A030E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheGIFviews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.TheGIFviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F91AF71D79F727003A030E /* Build configuration list for PBXProject "TheGIFviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F91B111D79F727003A030E /* Debug */,
+				F9F91B121D79F727003A030E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F91B131D79F727003A030E /* Build configuration list for PBXNativeTarget "TheGIFviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F91B141D79F727003A030E /* Debug */,
+				F9F91B151D79F727003A030E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F91AF41D79F727003A030E /* Project object */;
+}
